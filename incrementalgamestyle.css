@@ -1,0 +1,327 @@
+body {
+  display: block;
+  background-color: #3a3a3a;
+  font-family: monospace;
+  font-size: large;
+  height: 725px;
+  margin: 0px;
+}
+.maincontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: 100%;
+}
+/*COUNTER*/
+.dollar {
+  display: flex;
+  justify-items: center;
+  top: 30%;
+  object-fit: contain;
+  padding: 10px;
+  background-color: transparent;
+  transition: transform 0.2s;
+}
+.dollar:hover {
+  transform: scale(1.2);
+}
+img {
+  object-fit: contain;
+  width: 150px;
+  height: 150px;
+}
+.coincounter {
+  display: flex;
+  flex-direction: column;
+  background-color: #3a3a3a;
+  color: white;
+  font-size: larger;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+#currency {
+  display: flex;
+  top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.coin {
+  text-align: center;
+  max-width: 100%;
+}
+.countercontainer {
+  padding: 5px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  border-right: solid orange 3px;
+  height: 700px;
+  width: 200px;
+  color: white;
+}
+.btn {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+#bigcoin {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+/*RESOURCES*/
+.resourcecontainer {
+  object-position: left;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  float: left;
+  height: 100%;
+  width: 800px;
+  z-index: 1;
+}
+#minerbox {
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+}
+.minerpic {
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+}
+.datacenterbox {
+  justify-content: left;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+}
+.datacenterpic {
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+}
+.supercpubox {
+  justify-content: left;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+}
+.supercpupic {
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+}
+.quantumbox {
+  justify-content: left;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+}
+.quantumpic {
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+}
+.aibox {
+  justify-content: left;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+}
+.aipic {
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+}
+.matrioshkabox {
+  justify-content: left;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+}
+.matrioshkapic {
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+}
+.simulationbox {
+  justify-content: left;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+}
+.simulationpic {
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+}
+/*BUY*/
+.buycontainer {
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 400px;
+  height: 100%;
+}
+.coinicon {
+  width: 30px;
+  height: 30px;
+  align-self: bottom;
+}
+.minersection {
+  color: white;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+  border-left: solid white 3px;
+}
+.minerbuy {
+  overflow: hidden;
+  justify-content: left;
+  height: 100%;
+  width: 50px;
+  background-color: transparent;
+}
+.datacentersection {
+  color: white;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+  border-left: solid white 3px;
+}
+.datacenterbuy {
+  object-fit: contain;
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+  background-color: transparent;
+}
+.supercpusection {
+  color: white;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+  border-left: solid white 3px;
+}
+.supercpubuy {
+  object-fit: contain;
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+  background-color: transparent;
+}
+.quantumcpusection {
+  color: white;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+  border-left: solid white 3px;
+}
+.quantumcpubuy {
+  object-fit: contain;
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+  background-color: transparent;
+}
+.AIsection {
+  color: white;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+  border-left: solid white 3px;
+}
+.AIbuy {
+  object-fit: contain;
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+  background-color: transparent;
+}
+.matrioshkasection {
+  color: white;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+  border-left: solid white 3px;
+}
+.matrioshkabuy {
+  object-fit: contain;
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+  background-color: transparent;
+}
+.simulationsection {
+  color: white;
+  padding: 5px;
+  display: flex;
+  background-color: #292a2b;
+  width: 100%;
+  height: 82px;
+  margin: 5px;
+  border-left: solid white 3px;
+}
+.simulationbuy {
+  object-fit: contain;
+  justify-content: left;
+  height: 100%;
+  width: 75px;
+  background-color: transparent;
+}
+#buyaMiner {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0px;
+  max-width: auto;
+  max-height: auto;
+}
